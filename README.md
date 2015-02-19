@@ -20,7 +20,7 @@ selected from Rotten Tomatoes and accessed via their web API.  In addition,
 a link to Rotten Tomatoes webpage for that movie can be found at the bottom  
 of the movie page.
 
-Changes were made to the underlying html and css so that:
+Changes were made to the underlying html and css so that:  
 1) Each movie's title is a hyperlink leading to a separate page displaying  
    more information on that movie, pulled from the Rotten Tomatoes API.
 
