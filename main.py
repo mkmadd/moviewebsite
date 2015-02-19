@@ -41,9 +41,8 @@ incredibles = media.Movie('10011',
                           'The Incredibles',
                           ('A family struggles with being super '
                            'in the modern world'),
-                          ('http://ia.media-imdb.com/images/M/MV5BMTY5OT'
-                           'U0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_'
-                           'SY317_CR0,0,214,317_AL_.jpg'),
+                          ('http://www.listoid.com/image/78/list_2_78_'
+                          '20101119_080416_190.jpg'),
                           'https://www.youtube.com/watch?v=eZbzbC9285I')
 
 great_escape = media.Movie('17025',
