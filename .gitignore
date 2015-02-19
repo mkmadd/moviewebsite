@@ -1,0 +1,7 @@
+# contains environmental variables
+app.yaml
+# Notepad++ backup directory
+nppBackup/
+# auto-generated
+index.yaml
+*.pyc
