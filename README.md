@@ -28,8 +28,11 @@ Changes were made to the underlying html and css so that:
    the image goes opaque and the movie's storyline appears.
 
    
-Structurally, the string variables in the fresh_tomatoes.py file that held  
-the html, css, and javascript were broken out into separate files.  The html  
-was broken into main, header, movie_tile, and movie templates and moved to a  
-views directory.  The css and javascript files were placed in a static  
-directory.
+Structurally, the main.py file contains the movie object definitions and  
+routing code.  media.py contains the movie class for the model definition.  
+The string variables in the fresh_tomatoes.py file that held the html, css,  
+and javascript were broken out into separate files.  The html was broken into  
+main, header, movie_tile, and movie templates and moved to a views directory.  
+The css and javascript files were placed in a static directory.  
+(bottle.py contains the entirety of the bottle micro web framework, here  
+because it needs to be uploaded with the rest since GAE does not provide it.)
